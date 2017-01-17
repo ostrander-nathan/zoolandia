@@ -11,10 +11,15 @@ using System;
         public string signatureNoise {get; set;}
         public string isSafe{get; set;}
 
-        public static void sleep ()
-        {
-            // Console.WriteLine("Animal is now sleeping");
+            public virtual void FoodChoice ()
+            {
+                Console.WriteLine("peas and carrots");
+            }
+        
+            public static void sleep ()
+            {
+                // Console.WriteLine("Animal is now sleeping");
 
-        }
+            }
     }
 }
