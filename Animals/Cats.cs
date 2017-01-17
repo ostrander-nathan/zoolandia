@@ -8,6 +8,19 @@ using Zoolandia.Animals;
             {
                 this.name = "MyCat";
             }
+            public Cat(string name)
+            {
+                this.name = name;
+            }
+            public Cat(int weight)
+            {
+              this.weight = weight.ToString();
+            }
+            public Cat (string name, int weight)
+            {
+              this.name = name;
+              this.weight = weight.ToString();
+            }
             public override void FoodChoice ()
             {
               Console.WriteLine("Chicken Nuggets only");

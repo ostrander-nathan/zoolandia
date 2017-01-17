@@ -40,14 +40,46 @@ namespace Zoolandia
                 var UnknownAnimal = new Animal();
                     UnknownAnimal.FoodChoice();
 
-                    Cat animalInstance = new Cat();
-                    Console.WriteLine(animalInstance.name);
+                    Cat catInstance = new Cat();
+                    Console.WriteLine(catInstance.name);
 
-                    Dog animalInstance1 = new Dog();
-                    Console.WriteLine(animalInstance1.name);
+                    Dog dogInstance = new Dog();
+                    Console.WriteLine(dogInstance.name);
 
-                    Bird animalInstance2 = new Bird();
-                    Console.WriteLine(animalInstance2.name);
+                    Bird birdInstance = new Bird();
+                    Console.WriteLine(birdInstance.name);
+
+                    Cat superCat = new Cat("Sam");
+                    Console.WriteLine(superCat.name);
+
+                    Dog superDog = new Dog("Bill");
+                    Console.WriteLine(superDog.name);
+
+                    Bird superBird = new Bird("Mike");
+                    Console.WriteLine(superBird.name);
+
+                    Cat fatCat = new Cat(10);
+                    Console.WriteLine(fatCat.weight);
+
+                    Dog fatDog = new Dog(20);
+                    Console.WriteLine(fatDog.weight);
+
+                    Bird fatBird = new Bird(30);
+                    Console.WriteLine(fatBird.weight);
+
+                    Cat bigCat = new Cat("Nick", 90);
+                    Console.Write(bigCat.name);
+                    Console.Write(bigCat.weight); 
+
+                    Dog bigDog = new Dog("Dave", 30);
+                    Console.Write(bigDog.name);
+                    Console.Write(bigDog.weight); 
+
+                    Bird bigBird = new Bird("Ace", 50);
+                    Console.Write(bigBird.name);
+                    Console.Write(bigBird.weight); 
+
+                    
                 
              }
 

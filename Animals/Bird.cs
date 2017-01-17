@@ -9,6 +9,19 @@ namespace Zoolandia
             {
                 this.name = "MyBird";
             }
+            public Bird(string name)
+            {
+                this.name = name;
+            }
+            public Bird(int weight)
+            {
+              this.weight = weight.ToString();
+            }
+            public Bird (string name, int weight)
+            {
+              this.name = name;
+              this.weight = weight.ToString();
+            }
             public override void FoodChoice ()
             {
                 Console.WriteLine("Popcorn");
