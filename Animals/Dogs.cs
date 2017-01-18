@@ -24,6 +24,7 @@ using Zoolandia.Animals;
             }
             public override void FoodChoice ()
             {
+                base.FoodChoice();
                 Console.WriteLine("Prime Rib Only");
             }
         }

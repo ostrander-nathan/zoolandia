@@ -23,6 +23,7 @@ using Zoolandia.Animals;
             }
             public override void FoodChoice ()
             {
+              base.FoodChoice();
               Console.WriteLine("Chicken Nuggets only");
             }
         }

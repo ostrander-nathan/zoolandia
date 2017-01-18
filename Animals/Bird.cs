@@ -24,6 +24,7 @@ namespace Zoolandia
             }
             public override void FoodChoice ()
             {
+                base.FoodChoice();
                 Console.WriteLine("Popcorn");
             }
         }
