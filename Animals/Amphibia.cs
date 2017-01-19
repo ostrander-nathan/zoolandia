@@ -20,10 +20,6 @@ namespace Zoolandia
             }
         }
         
-        public virtual void SkinType()
-        {
-            Console.WriteLine("rubber");
-        }
     }
 
 

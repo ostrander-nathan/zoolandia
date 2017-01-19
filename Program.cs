@@ -88,6 +88,7 @@ namespace Zoolandia
                     NewFrog.sleepHours(7);
                     NewFrog.SkinType();
                     Console.WriteLine($"This is a {NewFrog.scientificName} also known as a {NewFrog.commonName}. It's favorite food are {NewFrog.FavoriteFood}");
+                    Console.WriteLine(NewFrog.CanSwim());
                     
                     
                     Salamander NewSalamander = new Salamander();
@@ -98,6 +99,7 @@ namespace Zoolandia
                     NewSalamander.movementSpeed(2);
                     NewSalamander.SkinType();
                     Console.WriteLine($"This is a {NewSalamander.scientificName} also known as a {NewSalamander.commonName}. It's favorite food are {NewSalamander.FavoriteFood}");
+                    Console.WriteLine(NewSalamander.CanFly());
 
                     
                     Toad NewToad = new Toad();
@@ -105,9 +107,12 @@ namespace Zoolandia
                     Console.WriteLine(NewToad.toxic);
                     NewToad.sleep();
                     Console.WriteLine($"This is a {NewToad.scientificName} also known as a {NewToad.commonName}. It's favorite food are {NewToad.FavoriteFood}");
+                    NewToad.Floats();
 
                     Amphibia NewAmphibia = new Amphibia();
                     Console.WriteLine(NewAmphibia.toxic);
+
+
                     
                     
                     
